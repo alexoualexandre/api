@@ -21,7 +21,7 @@ function App() {
           return (
             <div key={elem.id} style={{ border: "1px solid red", width: "50%", position: "relative" }}>
               <p>{elem.name}</p>
-              <img src={elem.img_url} style={{ position: "relative", width: "100%" }} ></img>
+              <img src={elem.img_url} style={{ position: "relative", width: "99%" }} ></img>
             </div>
           )
         }
